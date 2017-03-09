@@ -9,8 +9,8 @@ package com.tag.problemStructure;
  *
  * @author quantumDrop
  */
-public interface Problem {
+public interface Problem{
+    public void printSolution();
     public void printProblemStatement(boolean withExample);
     public void printExample();
-    public void printSolution();
 }
